@@ -4,4 +4,4 @@ Welcome to the Dunner wiki!
 
 * [User Guide](https://github.com/leopardslab/Dunner/wiki/User-Guide)
 * [Installation Guide](https://github.com/leopardslab/Dunner/wiki/Installation-Guide)
-* Developer Guide
+* [Developer Guide](https://github.com/leopardslab/Dunner/wiki/Developer-Guide)
