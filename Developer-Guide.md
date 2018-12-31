@@ -1,4 +1,4 @@
-We are glad you are interested in helping us develop Dunner and we are glad you though of reading this developer guide before contributing! 
+We are glad you are interested in helping us develop Dunner and we are glad you thought of reading this developer guide before contributing! 
 
 # Pull Requests
 1. Before creating a PR, always make sure there is a relevant issue for it. If not, create one yourself.
