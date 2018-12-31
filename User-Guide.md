@@ -1,4 +1,4 @@
-1. Install Dunner by compiling the source code on your machine. 
+1. Install Dunner by compiling the source code on your machine. Read the [Installation Guide].(https://github.com/leopardslab/Dunner/wiki/Installation-Guide)
 
 ( We will be adding more methods like RPM & Deb packages in the future )
 
