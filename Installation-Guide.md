@@ -46,6 +46,14 @@ snap install dunner
 ### 3. Download .deb/.rpm
 Download the .deb or .rpm from [Github Releases page](https://github.com/leopardslab/Dunner/releases/) and install with `dpkg -i` and `rpm -i` respectively.
 
+### 4. Install using YUM/DNF
+
+Install dunner by running the following commands:
+```
+wget https://bintray.com/leopardslab/dunner-rpm/rpm -O bintray-leopardslab-dunner-rpm.repo | tee /etc/yum.repos.d/bintray-leopardslab-dunner-rpm.repo
+sudo dnf install dunner
+```
+
 # 2. Install on Mac OS X
 [Dunner](https://github.com/leopardslab/Dunner) can be installed via [Homebrew](https://brew.sh/). On Mac OS X, you can install by running below command:
 
