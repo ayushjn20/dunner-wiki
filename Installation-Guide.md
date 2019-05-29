@@ -4,6 +4,7 @@ Dunner can be installed using various options on each platform:
 * Package Managers
   - [Linux](https://github.com/leopardslab/dunner/wiki/Installation-Guide/_edit#2-install-on-linux)
   - [Max OS X](https://github.com/leopardslab/dunner/wiki/Installation-Guide/_edit#2-install-on-mac-os-x)
+* Install from source code
 
 # 1. Install on all Platforms
 
@@ -58,7 +59,7 @@ brew install leopardslab/homebrew-dunner/dunner
 
 To reinstall, run `brew reinstall dunner`.
 
-# 3. Install using source code
+# 3. Install from source code
 
 **Note**: You need 'Dep' to download the dependencies. See how to install Dep [here](https://golang.github.io/dep/docs/installation.html).
 
