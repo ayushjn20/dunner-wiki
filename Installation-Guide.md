@@ -4,7 +4,7 @@ Dunner can be installed using various options on each platform:
 * Package Managers
   - [Linux](https://github.com/leopardslab/dunner/wiki/Installation-Guide/_edit#2-install-on-linux)
   - [Max OS X](https://github.com/leopardslab/dunner/wiki/Installation-Guide/_edit#2-install-on-mac-os-x)
-* Install from source code
+* [Install from source code](https://github.com/leopardslab/dunner/wiki/Installation-Guide#3-install-from-source-code)
 
 # 1. Install on all Platforms
 
