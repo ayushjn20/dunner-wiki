@@ -67,7 +67,19 @@ brew install leopardslab/homebrew-dunner/dunner
 
 To reinstall, run `brew reinstall dunner`.
 
-# 3. Install from source code
+# 3. Install on Arch Linux
+[[Refer this](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages)]
+Clone the AUR package repository,
+```bash
+git clone https://aur.archlinux.org/dunner.git
+cd dunner/
+```
+Use `makepkg` to build the `PKGBUILD` file and install Dunner
+```bash
+makepkg -si
+```
+
+# 4. Install from source code
 
 **Note**: You need 'Dep' to download the dependencies. See how to install Dep [here](https://golang.github.io/dep/docs/installation.html).
 
