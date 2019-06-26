@@ -22,7 +22,7 @@ release:
     - `$BUILD_DIR`:/app
 ```
 
-Running `dunner do release` from command-line will now run the release task inside Docker container, using `ubuntu:latest` image.
+Running `dunner do release` from command-line will now run the release task inside a Docker container, using `ubuntu:latest` image.
 
 ## Why use Dunner?
 * Automate repeated tasks of spinning up a container, running commands and closing it
