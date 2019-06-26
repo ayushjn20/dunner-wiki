@@ -7,7 +7,7 @@ Task runner will speed up the development process by making everything automated
 ## What is Dunner?
 Dunner is an open-source task runner based on Docker, simple and flexible. Define docker tasks, configure the environment, and that’s it!
 
-Just create a `.dunner.yml` file as below:
+Just create a `.dunner.yaml` file as below:
 
 ```yml
 release:
