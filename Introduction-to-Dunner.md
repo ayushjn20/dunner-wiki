@@ -28,6 +28,7 @@ Running `dunner do release` from command-line will now run the release task insi
 * Easy configuration
 * Define your docker tasks once and forget attention to detail every time
 * Share tasks with your team
+* Run tasks using multiple images faster and fully automated!
 * Simple usage and easy installation for all platforms
 
 ## Here’s a preview!
