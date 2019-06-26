@@ -11,18 +11,17 @@ Just create a `.dunner.yml` file as below:
 
 ```yml
 release:
-  image: ubuntu:latest
-  name: dunner_release
-  commands:
-    - [“echo”, “Running the release script”]
-  envs:
-    - USER=`$USER_NAME`
-    - API_KEY=`$RELEASE_API_KEY`
-  mounts:
-    - `$BUILD_DIR`:/app
+  - image: golang
+    commands:
+      - [“make”, “build”]
+  - image: goreleaser/goreleaser
+    commands:
+      - [“echo”, “Running the release script”]
+      - [“goreleaser”, “release”]
+
 ```
 
-Running `dunner do release` from command-line will now run the release task inside a Docker container, using `ubuntu:latest` image.
+Running `dunner do release` from command-line will now run the release task inside a Docker container. It runs the build command using `golang` image and then runs release script using `ubuntu:latest` image in another container.
 
 ## Why use Dunner?
 * Automate repeated tasks of spinning up a container, running commands and closing it
