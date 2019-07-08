@@ -48,10 +48,15 @@ Download the .deb or .rpm from [Github Releases page](https://github.com/leopard
 
 ### 4. Install using YUM/DNF
 
-Install dunner by running the following commands:
+For the first time, add Dunner to yum repository list by running below commands:
 ```
 wget https://bintray.com/leopardslab/dunner-rpm/rpm -O bintray-leopardslab-dunner-rpm.repo | tee /etc/yum.repos.d/bintray-leopardslab-dunner-rpm.repo
 sudo mv bintray-leopardslab-dunner-rpm.repo /etc/yum.repos.d/
+```
+
+Then install dunner as:
+
+```
 sudo dnf update
 sudo dnf install dunner
 ```
