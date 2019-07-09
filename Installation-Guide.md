@@ -50,7 +50,7 @@ Download the .deb or .rpm from [Github Releases page](https://github.com/leopard
 
 For the first time, add Dunner to yum repository list by running below commands:
 ```
-wget https://bintray.com/leopardslab/dunner-rpm/rpm -O bintray-leopardslab-dunner-rpm.repo | tee /etc/yum.repos.d/bintray-leopardslab-dunner-rpm.repo
+wget https://bintray.com/leopardslab/dunner-rpm/rpm -O bintray-leopardslab-dunner-rpm.repo 
 sudo mv bintray-leopardslab-dunner-rpm.repo /etc/yum.repos.d/
 ```
 
