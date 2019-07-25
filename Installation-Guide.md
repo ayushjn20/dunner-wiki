@@ -38,9 +38,12 @@ sudo apt-get install dunner
 Note: In some Linux images, you might need to run `apt update && apt install ca-certificates gnupg2` to add gpg key.
 
 ### 2. Snapcraft
+Install `docker` with snap and then install `dunner`. You'll have to run a command to connect dunner with docker.
 
 ```
+snap install docker
 snap install dunner
+snap connect dunner:docker
 ```
 
 ### 3. Download .deb/.rpm
