@@ -4,7 +4,8 @@ This document describes the usage instructions of the current stable version of 
 
 1. Install Dunner by following one of the methods present in the [Installation Guide](https://github.com/leopardslab/dunner/wiki/Installation-Guide).
 
-2. Create a YAML file `.dunner.yaml` in your project directory.
+2. Run `dunner init` from command-line and it initializes current directory with a sample dunner task file. 
+Or you can create a YAML file `.dunner.yaml` in your project directory.
 It could look like as follows, 
     ```yaml
     publish:
