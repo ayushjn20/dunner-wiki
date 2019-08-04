@@ -69,6 +69,7 @@ sudo dnf install dunner
 
 ```
 brew tap leopardslab/dunner
+brew install dunner
 ```
 or
 ```
