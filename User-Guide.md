@@ -140,6 +140,14 @@ $ dunner validate
 
 # Advanced Usage
 
+## Validation
+
+You can validate your dunner task file without actually executing any task. 
+```
+dunner validate
+```
+Running above command from cli will list down any parse errors and validation errors in dunner configuration. 
+
 ## Dotenv file
 Dunner has the facility to define certain environment variables in a separate environment file. This enables users to keep certain secrets like API keys, access tokens, passwords, etc. outside of the dunner file. Also, it can serve as a constants file too, making it a little less messier to change some parameters of the commands that are to be run through the dunner file. Dunner reads the filename (`.env`) by default, but a custom environment file with a different name can be chosen with `--env-file` flag. These variables can be invoked as explained [here](#exporting-environment-variables).
 
