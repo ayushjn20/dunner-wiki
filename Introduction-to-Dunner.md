@@ -31,10 +31,6 @@ Running `dunner do release` from command-line will now run the release task insi
 * Run tasks using multiple images faster and fully automated!
 * Simple usage and easy installation for all platforms
 
-## Here’s a preview!
-
-[![asciicast](https://asciinema.org/a/yVV9KOYyA71oBvZbyy6vcBiLZ.png)](https://asciinema.org/a/yVV9KOYyA71oBvZbyy6vcBiLZ)
-
 ## Installation
 Based on your OS and machine architecture, Dunner can be installed in many ways. Check out our detailed [Installation Wiki](https://github.com/leopardslab/dunner/wiki/Installation-Guide) for steps.
 
@@ -42,3 +38,6 @@ Based on your OS and machine architecture, Dunner can be installed in many ways.
 
 Run `dunner --help` on command-line and it should display usage and available commands.
 
+## Here’s a preview!
+
+[![asciicast](https://asciinema.org/a/yVV9KOYyA71oBvZbyy6vcBiLZ.png)](https://asciinema.org/a/yVV9KOYyA71oBvZbyy6vcBiLZ)
