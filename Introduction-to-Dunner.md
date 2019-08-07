@@ -33,12 +33,10 @@ Running `dunner do release` from command-line will now run the release task insi
 
 ## Here’s a preview!
 
-[Screencast of Dunner install and run sample dunner file]
+[![asciicast](https://asciinema.org/a/yVV9KOYyA71oBvZbyy6vcBiLZ.png)](https://asciinema.org/a/yVV9KOYyA71oBvZbyy6vcBiLZ)
 
 ## Installation
-Based on your OS and machine architecture, Dunner can be installed in many ways. 
-
-[All install options with instructions]
+Based on your OS and machine architecture, Dunner can be installed in many ways. Check out our detailed [Installation Wiki](https://github.com/leopardslab/dunner/wiki/Installation-Guide) for steps.
 
 ### Test your installation
 
