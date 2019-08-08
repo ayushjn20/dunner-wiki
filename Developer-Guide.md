@@ -19,7 +19,9 @@ Before working on a pull request please let us know by creating or commenting on
 
 # Setup
 
+`Makefile` is your friend! Have a look at all tasks defined [here](https://github.com/leopardslab/dunner/blob/master/Makefile).
+
 * Install [dep](https://github.com/golang/dep) as described [here](https://github.com/golang/dep#installation)
-* To install dependencies, run `make setup`
+* To install project dependencies, run `make setup`
 * To build project, run `make build`
 * To run unit tests, run `make test` 
