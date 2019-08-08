@@ -12,7 +12,14 @@ Before working on a pull request please let us know by creating or commenting on
 * Contribute Code to Dunner! Issues labelled `good first issue`, `help wanted` and `bug` are good to start with.
 
 # Pull Requests
-1. Before creating a PR, always make sure there is a relevant issue for it. If not, create one yourself.
-2. Make sure to prefix the issue id in commit message titles like, `[#1] Mount the source code as a volume to containers` where the `#1` is the issue id.
-3. Make all the PRs to `develop` branch.
+* Before creating a PR, always make sure there is a relevant issue for it. If not, create one yourself.
+* Make sure to prefix the issue id in commit message titles like, `[#1] Mount the source code as a volume to containers` where the `#1` is the issue id.
+* Make all the PRs to `develop` branch.
+* Run `make precommit` locally before raising PR, this checks for standard Go code styles.
 
+# Setup
+
+* Install [dep](https://github.com/golang/dep) as described [here](https://github.com/golang/dep#installation)
+* To install dependencies, run `make setup`
+* To build project, run `make build`
+* To run unit tests, run `make test` 
