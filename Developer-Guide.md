@@ -25,3 +25,4 @@ Before working on a pull request please let us know by creating or commenting on
 * To install project dependencies, run `make setup`
 * To build project, run `make build`
 * To run unit tests, run `make test` 
+
